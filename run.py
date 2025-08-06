@@ -5,9 +5,8 @@ import os
 import webbrowser
 import numpy as np
 
-# à adapter à ton code
-from exr import Loader, get_content, parse_mrz
-from exr import init_db, get_all_documents, save_document_to_db, delete_document_from_db
+from mrz import Loader, get_content, parse_mrz
+from mrz import init_db, get_all_documents, save_document_to_db, delete_document_from_db
 
 
 class OCRApp:
