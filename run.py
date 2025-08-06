@@ -28,7 +28,7 @@ class OCRApp:
         self.upload_label = tk.Label(self.left_frame, text="Téléversez un document", font=("Arial", 11, "bold"), bg="white")
         self.upload_label.pack(pady=(10, 5))
 
-        self.upload_icon = ImageTk.PhotoImage(Image.open("upload.jpg").resize((64, 64)))
+        self.upload_icon = ImageTk.PhotoImage(Image.open("upload.png").resize((64, 64)))
         self.drop_area = tk.Label(self.left_frame, image=self.upload_icon, bg="#e6f7ff", width=80, height=80, relief="ridge")
         self.drop_area.pack(pady=(5, 10))
 
