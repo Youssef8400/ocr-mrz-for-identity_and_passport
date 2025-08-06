@@ -3,7 +3,15 @@
 **Une application OCR avec interface graphique développée en Python, permettant d’analyser des documents d'identité (Passeports, CIN...) via la reconnaissance de zone MRZ, de les corriger automatiquement et de sauvegarder les résultats dans une base de données SQLite.**
 
 ---
+*installation* : 
+pip install -r requirements.txt
 
+
+*Run code*:
+python run.py
+
+
+---
 ##  Fonctionnalités principales
 
 1. Reconnaissance automatique des zones MRZ à partir d’images ou de fichiers PDF.  
