@@ -1,11 +1,5 @@
-import tkinter as tk
-from tkinter import filedialog, messagebox, ttk
-from PIL import Image, ImageTk
-import os
-import numpy as np
 import datetime
 import subprocess
-import webbrowser
 import sqlite3
 from PassportEye.passporteye.util.pdf import extract_first_jpeg_in_pdf
 from skimage import io as skimage_io
